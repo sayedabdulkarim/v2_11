@@ -23,6 +23,12 @@ export default function Counter() {
           +
         </button>
       </div>
+      <button
+        onClick={() => setCount(0)}
+        className="mt-2 px-4 py-2 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium"
+      >
+        Reset
+      </button>
     </div>
   );
 }
